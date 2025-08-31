@@ -49,10 +49,10 @@ export default function SalonPage() {
 
   return (
     <div
-      className={`${jost.className} flex min-h-screen bg-white max-w-6xl mx-auto`}
+      className={`${jost.className} flex min-h-screen bg-[#FFFBF9] max-w-6xl mx-auto`}
     >
       {/* --- Sticky Sidebar --- */}
-      <aside className="w-48 sticky top-0 h-screen overflow-y-auto border-r border-gray-200">
+      <aside className="w-48 sticky top-0 h-screen overflow-y-auto border-r border-[#FEE9E1]">
         <div className="p-6">
           <nav className="space-y-6">
             {/* -- Hair Nav Item -- */}
@@ -63,10 +63,10 @@ export default function SalonPage() {
               <div className="w-20 h-20 flex items-center justify-center group-hover:scale-110 transition-transform">
                 <Image src="/hair.svg" alt="Hair" width={50} height={50} />
               </div>
-              <span className="text-sm font-medium text-gray-800">Hair</span>
+              <span className="text-sm font-medium text-[#5C4B46]">Hair</span>
               <div
                 className={`w-16 h-0.5 transition-all duration-300 ${
-                  activeSection === "hair" ? "bg-[#FCCAB8]" : "bg-transparent"
+                  activeSection === "hair" ? "bg-[#F4C8B5]" : "bg-transparent"
                 }`}
               ></div>
             </div>
@@ -79,10 +79,10 @@ export default function SalonPage() {
               <div className="w-20 h-20 flex items-center justify-center group-hover:scale-110 transition-transform">
                 <Image src="/makeup.svg" alt="Makeup" width={50} height={50} />
               </div>
-              <span className="text-sm font-medium text-gray-800">Makeup</span>
+              <span className="text-sm font-medium text-[#5C4B46]">Makeup</span>
               <div
                 className={`w-16 h-0.5 transition-all duration-300 ${
-                  activeSection === "makeup" ? "bg-[#FCCAB8]" : "bg-transparent"
+                  activeSection === "makeup" ? "bg-[#F4C8B5]" : "bg-transparent"
                 }`}
               ></div>
             </div>
@@ -95,10 +95,10 @@ export default function SalonPage() {
               <div className="w-20 h-20 flex items-center justify-center group-hover:scale-110 transition-transform">
                 <Image src="/manicure.svg" alt="Manicure" width={50} height={50} />
               </div>
-              <span className="text-sm font-medium text-center text-gray-800">Manicure Pedicure</span>
+              <span className="text-sm font-medium text-center text-[#5C4B46]">Manicure Pedicure</span>
               <div
                 className={`w-16 h-0.5 transition-all duration-300 ${
-                  activeSection === "manicure" ? "bg-[#FCCAB8]" : "bg-transparent"
+                  activeSection === "manicure" ? "bg-[#F4C8B5]" : "bg-transparent"
                 }`}
               ></div>
             </div>
@@ -111,10 +111,10 @@ export default function SalonPage() {
               <div className="w-20 h-20 flex items-center justify-center group-hover:scale-110 transition-transform">
                 <Image src="/skincare.svg" alt="Skincare" width={50} height={50} />
               </div>
-              <span className="text-sm font-medium text-gray-800">Skincare</span>
+              <span className="text-sm font-medium text-[#5C4B46]">Skincare</span>
               <div
                 className={`w-16 h-0.5 transition-all duration-300 ${
-                  activeSection === "skincare" ? "bg-[#FCCAB8]" : "bg-transparent"
+                  activeSection === "skincare" ? "bg-[#F4C8B5]" : "bg-transparent"
                 }`}
               ></div>
             </div>
@@ -127,10 +127,10 @@ export default function SalonPage() {
               <div className="w-20 h-20 flex items-center justify-center group-hover:scale-110 transition-transform">
                 <Image src="/facial.svg" alt="Facial" width={50} height={50} />
               </div>
-              <span className="text-sm font-medium text-gray-800">Facial</span>
+              <span className="text-sm font-medium text-[#5C4B46]">Facial</span>
               <div
                 className={`w-16 h-0.5 transition-all duration-300 ${
-                  activeSection === "facial" ? "bg-[#FCCAB8]" : "bg-transparent"
+                  activeSection === "facial" ? "bg-[#F4C8B5]" : "bg-transparent"
                 }`}
               ></div>
             </div>
@@ -139,68 +139,67 @@ export default function SalonPage() {
       </aside>
 
       {/* --- Main Content --- */}
-      <main className="flex-1 p-8">
-        <div className="max-w-4xl mx-auto">
+      <main className="flex-1">
+        <div className="max-w-4xl mx-auto p-8">
           {/* ========== HAIR SECTION ========== */}
           <section id="hair" className="pt-12 mb-16">
             <div className="text-center mb-12">
-              <h1 className="text-5xl font-bold text-gray-800 mb-4">Hair</h1>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              <h1 className="text-5xl font-bold text-[#5C4B46] mb-4">Hair</h1>
+              <p className="text-lg text-[#7B6A66] max-w-2xl mx-auto">
                 Stylish hair cuts, gorgeous styling, incredible color services and
                 best hair treatments. Choose your dream service!
               </p>
             </div>
             <div className="mb-12">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">Haircut</h2>
-              <div className="grid md:grid-cols-2 gap-8">
+              <h2 className="text-2xl font-bold text-[#5C4B46] mb-6">Haircut</h2>
+              <div className="grid md:grid-cols-2 gap-x-8 gap-y-6">
                 {/* Steps Cutting */}
-                <div className="bg-gray-50 p-6 rounded-lg">
+                <div className="border-t border-[#FEE9E1] pt-4">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-xl font-semibold text-gray-800">Steps Cutting</h3>
-                    <span className="text-sm font-medium text-gray-800">Rp 1500</span>
+                    <h3 className="text-xl font-semibold text-[#5C4B46]">Steps Cutting</h3>
+                    <span className="text-sm font-medium text-[#5C4B46]">Rp 1500</span>
                   </div>
-                  <p className="text-gray-600">A graduated haircut in which the hair takes the form of cascading steps.</p>
+                  <p className="text-[#7B6A66]">A graduated haircut in which the hair takes the form of cascading steps.</p>
                 </div>
                 {/* Layers Cutting */}
-                <div className="bg-gray-50 p-6 rounded-lg">
+                <div className="border-t border-[#FEE9E1] pt-4">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-xl font-semibold text-gray-800">Layers Cutting</h3>
-                    <span className="text-sm font-medium text-gray-800">Rp 1500</span>
+                    <h3 className="text-xl font-semibold text-[#5C4B46]">Layers Cutting</h3>
+                    <span className="text-sm font-medium text-[#5C4B46]">Rp 1500</span>
                   </div>
-                  <p className="text-gray-600">A layered haircut that creates the appearance of length and volume.</p>
+                  <p className="text-[#7B6A66]">A layered haircut that creates the appearance of length and volume.</p>
                 </div>
                 {/* Kids Cutting */}
-                <div className="bg-gray-50 p-6 rounded-lg">
+                <div className="border-t border-[#FEE9E1] pt-4">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-xl font-semibold text-gray-800">Kids Cutting</h3>
-                    <span className="text-sm font-medium text-gray-800">Rp 1000</span>
+                    <h3 className="text-xl font-semibold text-[#5C4B46]">Kids Cutting</h3>
+                    <span className="text-sm font-medium text-[#5C4B46]">Rp 1000</span>
                   </div>
-                  <p className="text-gray-600">A professional and friendly haircut experience for children age 10 & under.</p>
+                  <p className="text-[#7B6A66]">A professional and friendly haircut experience for children age 10 & under.</p>
                 </div>
                 {/* Korean Cutting */}
-                <div className="bg-gray-50 p-6 rounded-lg">
+                <div className="border-t border-[#FEE9E1] pt-4">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-xl font-semibold text-gray-800">Korean Cutting</h3>
-                    <span className="text-sm font-medium text-gray-800">Rp 2000</span>
+                    <h3 className="text-xl font-semibold text-[#5C4B46]">Korean Cutting</h3>
+                    <span className="text-sm font-medium text-[#5C4B46]">Rp 2000</span>
                   </div>
-                  <p className="text-gray-600">Trendy Korean hairstyles for men with short, medium, or long hair.</p>
+                  <p className="text-[#7B6A66]">Trendy Korean hairstyles for men with short, medium, or long hair.</p>
                 </div>
               </div>
             </div>
-            {/* Book Appointment Button */}
-          <div className="text-center justify-center">
-            <button className="bg-[#FCCAB8] hover:bg-[#FCCAB8]/80 text-gray-800 font-semibold py-3 px-8 rounded-md transition-colors">
-              Book an Appointment
-            </button>
-          </div>
+            <div className="text-center">
+                <button className="bg-[#F4C8B5] hover:bg-opacity-80 text-[#5C4B46] font-semibold py-3 px-8 rounded-md transition-colors">
+                    Book an Appointment
+                </button>
+            </div>
           </section>
 
           {/* ========== MAKEUP SECTION ========== */}
-          <section id="makeup" className="pt-12 mb-16">
+          <section id="makeup" className="pt-12 mb-16 bg-[#FEE9E1] rounded-lg p-8">
             <div className="text-center mb-12">
-              <h1 className="text-5xl font-bold text-gray-800 mb-4">Makeup</h1>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                From natural looks to glamorous transformations, our artists enhance your beauty for any occasion.
+              <h1 className="text-5xl font-bold text-[#5C4B46] mb-4">Makeup</h1>
+              <p className="text-lg text-[#7B6A66] max-w-2xl mx-auto">
+                Complete your service with beautiful makeup and simply be amazing with complete look.
               </p>
             </div>
             {/* Add makeup services here */}
@@ -209,8 +208,8 @@ export default function SalonPage() {
           {/* ========== MANICURE SECTION ========== */}
           <section id="manicure" className="pt-12 mb-16">
             <div className="text-center mb-12">
-              <h1 className="text-5xl font-bold text-gray-800 mb-4">Manicure Pedicure</h1>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              <h1 className="text-5xl font-bold text-[#5C4B46] mb-4">Manicure Pedicure</h1>
+              <p className="text-lg text-[#7B6A66] max-w-2xl mx-auto">
                 Pamper your hands and feet with our rejuvenating nail services for healthy, beautiful results.
               </p>
             </div>
@@ -218,10 +217,10 @@ export default function SalonPage() {
           </section>
 
           {/* ========== SKINCARE SECTION ========== */}
-          <section id="skincare" className="pt-12 mb-16">
+          <section id="skincare" className="pt-12 mb-16 bg-[#FEE9E1] rounded-lg p-8">
             <div className="text-center mb-12">
-              <h1 className="text-5xl font-bold text-gray-800 mb-4">Skincare</h1>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              <h1 className="text-5xl font-bold text-[#5C4B46] mb-4">Skincare</h1>
+              <p className="text-lg text-[#7B6A66] max-w-2xl mx-auto">
                 Achieve radiant, healthy skin with our personalized treatments and expert care.
               </p>
             </div>
@@ -229,16 +228,15 @@ export default function SalonPage() {
           </section>
 
           {/* ========== FACIAL SECTION ========== */}
-          <section id="facial" className="pt-12 mb-16">
+          <section id="facial" className="pt-12">
             <div className="text-center mb-12">
-              <h1 className="text-5xl font-bold text-gray-800 mb-4">Facial</h1>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              <h1 className="text-5xl font-bold text-[#5C4B46] mb-4">Facial</h1>
+              <p className="text-lg text-[#7B6A66] max-w-2xl mx-auto">
                 Relax and unwind with our range of facials designed to address your specific skin concerns.
               </p>
             </div>
             {/* Add facial services here */}
           </section>
-
         </div>
       </main>
     </div>
