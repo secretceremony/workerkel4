@@ -202,6 +202,41 @@ export default function SalonPage() {
                 Complete your service with beautiful makeup and simply be amazing with complete look.
               </p>
             </div>
+            <div className="mb-12">
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">
+                Makeup Services
+              </h2>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div className="p-6 rounded-lg">
+                  <div className="flex justify-between items-start mb-2">
+                    <div className="border-t border-[#FEE9E1] pt-4">
+                  </div>
+                    <h3 className="text-xl font-semibold text-gray-800">
+                      Bridal Makeup
+                    </h3>
+                    <span className="text-sm font-medium text-gray-800">
+                      Rp 1.500.000
+                    </span>
+                  </div>
+                  <p className="text-gray-600">
+                    Complete makeup package for the bride on her special day.
+                  </p>
+                </div>
+                <div className="p-6 rounded-lg">
+                  <div className="flex justify-between items-start mb-2">
+                    <h3 className="text-xl font-semibold text-gray-800">
+                      Party Makeup
+                    </h3>
+                    <span className="text-sm font-medium text-gray-800">
+                      Rp 500.000
+                    </span>
+                  </div>
+                  <p className="text-gray-600">
+                    Stunning makeup for parties, graduations, and other events.
+                  </p>
+                </div>
+              </div>
+            </div>
             {/* Add makeup services here */}
           </section>
 
@@ -213,7 +248,41 @@ export default function SalonPage() {
                 Pamper your hands and feet with our rejuvenating nail services for healthy, beautiful results.
               </p>
             </div>
-            {/* Add manicure services here */}
+            <div className="mb-12">
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">
+                Nail Care
+              </h2>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div className="p-6 rounded-lg">
+                  <div className="flex justify-between items-start mb-2">
+                    <h3 className="text-xl font-semibold text-gray-800">
+                      Classic Manicure
+                    </h3>
+                    <span className="text-sm font-medium text-gray-800">
+                      Rp 120.000
+                    </span>
+                  </div>
+                  <p className="text-gray-600">
+                    Nail shaping, cuticle care, hand massage, and regular
+                    polish.
+                  </p>
+                </div>
+                <div className="p-6 rounded-lg">
+                  <div className="flex justify-between items-start mb-2">
+                    <h3 className="text-xl font-semibold text-gray-800">
+                      Gel Pedicure
+                    </h3>
+                    <span className="text-sm font-medium text-gray-800">
+                      Rp 250.000
+                    </span>
+                  </div>
+                  <p className="text-gray-600">
+                    A long-lasting pedicure with gel polish that stays shiny for
+                    weeks.
+                  </p>
+                </div>
+              </div>
+            </div>
           </section>
 
           {/* ========== SKINCARE SECTION ========== */}
@@ -224,7 +293,26 @@ export default function SalonPage() {
                 Achieve radiant, healthy skin with our personalized treatments and expert care.
               </p>
             </div>
-            {/* Add skincare services here */}
+            <div className="mb-12">
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">
+                Skin Treatments
+              </h2>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div className="p-6 rounded-lg">
+                  <div className="flex justify-between items-start mb-2">
+                    <h3 className="text-xl font-semibold text-gray-800">
+                      Deep Cleansing
+                    </h3>
+                    <span className="text-sm font-medium text-gray-800">
+                      Rp 300.000
+                    </span>
+                  </div>
+                  <p className="text-gray-600">
+                    A thorough cleansing to remove impurities and refresh the skin.
+                  </p>
+                </div>
+              </div>
+            </div>
           </section>
 
           {/* ========== FACIAL SECTION ========== */}
@@ -235,7 +323,26 @@ export default function SalonPage() {
                 Relax and unwind with our range of facials designed to address your specific skin concerns.
               </p>
             </div>
-            {/* Add facial services here */}
+           <div className="mb-12">
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">
+                Facial Services
+              </h2>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div className=" p-6 rounded-lg">
+                  <div className="flex justify-between items-start mb-2">
+                    <h3 className="text-xl font-semibold text-gray-800">
+                      Hydrating Facial
+                    </h3>
+                    <span className="text-sm font-medium text-gray-800">
+                      Rp 350.000
+                    </span>
+                  </div>
+                  <p className="text-gray-600">
+                    Intensely moisturizes and nourishes dehydrated skin for a radiant glow.
+                  </p>
+                </div>
+              </div>
+            </div>
           </section>
         </div>
       </main>

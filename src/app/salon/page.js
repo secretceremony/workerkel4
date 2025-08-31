@@ -169,7 +169,7 @@ export default function SalonPage() {
 
           {/* Call to Action */}
           <div className="text-center">
-            <button className="bg-amber-200 hover:bg-amber-300 text-gray-800 font-semibold py-3 px-8 rounded-lg transition-colors">
+            <button className="bg-amber-200 hover:bg-amber-300 text-gray-800 font-semibold py-3 px-8 rounded-lg transition-colors" >
               Book an Appointment
             </button>
           </div>
